@@ -1,7 +1,7 @@
 #pragma once
 
 #define COMPANY L"Xiphos"
-#define PROJECT L"Window"
+#define PROJECT L"Systray"
 #define PRODUCT COMPANY L" " PROJECT
 
 #define IDI_MAIN 101
