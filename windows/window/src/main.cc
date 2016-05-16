@@ -17,7 +17,7 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, LPWSTR cmd, int show)
 
   // Create the main application window.
   window window(instance);
-    
+
   // Run the main message loop.
   MSG msg = {};
   while (GetMessage(&msg, nullptr, 0, 0)) {

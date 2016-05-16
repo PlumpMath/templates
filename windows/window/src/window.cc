@@ -39,7 +39,7 @@ window::window(HINSTANCE instance) : instance_(instance)
   // Create the main application window.
   auto es = 0x0L;
   auto ws = WS_OVERLAPPEDWINDOW;
-  
+
   if (!CreateWindowEx(es, PRODUCT, PROJECT, ws, 0, 0, CW_USEDEFAULT, CW_USEDEFAULT, nullptr, nullptr, instance, this)) {
     MessageBox(nullptr, L"Could not create the main application window.", PROJECT, MB_OK | MB_ICONERROR | MB_SETFOREGROUND);
     PostQuitMessage(1);
